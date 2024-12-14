@@ -187,13 +187,7 @@ export default function Sem1() {
                     ))}
                 </TableBody>
             </Table>
-            <div className="mx-auto w-fit"><a
-                href="https://yandex.ru/maps/org/federalnaya_sluzhba_po_nadzoru_v_sfere_svyazi_informatsionnykh_tekhnologiy_i_massovykh_kommunikatsiy/1092958629/?utm_medium=mapframe&utm_source=maps"
-                style={{color:"#eee;font-size:12px;position:absolute;top:0px;"}}>Федеральная служба по надзору в сфере
-                связи, информационных технологий и массовых коммуникаций</a><a
-                href="https://yandex.ru/maps/213/moscow/category/state_supervisory_bodies/184105646/?utm_medium=mapframe&utm_source=maps"
-                style={{color: "#eee;font-size:12px;position:absolute;top:14px;"}}>Органы государственного надзора в
-                Москве</a>
+            <div className="mx-auto w-fit my-10">
                 <iframe
                     src="https://yandex.ru/map-widget/v1/?display-text=%D0%A0%D0%BE%D1%81%D0%BA%D0%BE%D0%BC%D0%BD%D0%B0%D0%B4%D0%B7%D0%BE%D1%80&ll=37.636662%2C55.751705&mode=search&oid=1092958629&ol=biz&sctx=ZAAAAAgBEAAaKAoSCWstzEI7hUNAEexRuB6Fw0tAEhIJebEwRE4fIkARHClbJO2mBkAiBgABAgMEBSgKOABAt54BSAFqAnJ1nQHNzMw9oAEAqAEAvQF74zFrwgEKpfOUiQSjt5miBIICGigoY2hhaW5faWQ6KDQwNDYxODE4MDkwKSkpigIAkgIAmgIMZGVza3RvcC1tYXBzqgILNDA0NjE4MTgwOTCwAgE%3D&sll=37.637555%2C55.751736&sspn=0.003572%2C0.001515&text=%7B%22text%22%3A%22%D0%A0%D0%BE%D1%81%D0%BA%D0%BE%D0%BC%D0%BD%D0%B0%D0%B4%D0%B7%D0%BE%D1%80%22%2C%22what%22%3A%5B%7B%22attr_name%22%3A%22chain_id%22%2C%22attr_values%22%3A%5B%2240461818090%22%5D%7D%5D%7D&z=18.66"
                     width="560" height="400" frameBorder="1" style={{position: "relative"}}></iframe>
