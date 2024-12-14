@@ -1,6 +1,11 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import {Separator} from "@/components/ui/separator";
+import Navbar from "@/app/shared/ui/navbar";
+import Footer from "@/app/shared/ui/footer";
+import Logo from "@/app/main/ui/logo";
+import Creator from "@/app/main/ui/creator";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -25,11 +30,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
+    <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+    <div className=" flex flex-wrap w-full items-center justify-between">
+      <Logo className="m-2 w-16"/>
+      <Creator className="m-2"/>
+    </div>
+    <Separator className=""/>
+    <Navbar className=""/>
+
+    {children}
+    <Separator className=""/>
+    <Footer className=""/>
+    </body>
     </html>
   );
 }
